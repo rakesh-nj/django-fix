@@ -1,6 +1,6 @@
 # Django-Fix
 Django-Fix is a versatile and intelligent CLI debugger designed to streamline the development process of Django projects. This powerful tool goes beyond traditional debugging by combining advanced code analysis, error detection, and automatic issue resolution, all within a user-friendly command-line interface.
-##### Contributing to django-fix
+### Contributing to django-fix
 
 We're excited you're interested in contributing to django-fix! This guide will walk you through the process of contributing to the project.
 
@@ -21,10 +21,30 @@ There are many ways to contribute to the project, including:
     ```bash
     git clone https://github.com/rakesh-nj/django-fix.git
     ```
-3. **Create a new branch** for your changes.
-4. **Make your changes** and commit them to your branch.
-5. **Push your branch** to your fork on GitHub.
-6. **Open a pull request** from your fork to the main django-fix repository.
+3. **Create virtual environment**
+   ```
+   cd django-fix
+   ```
+   ```bash
+   python -m venv venv
+   ```
+   **Activate Virtual Environment**
+    - For Linux/macOS
+   ```bash
+   source venv/bin/activate
+   ```
+    - For Windows
+     ```bash
+     venv\Scripts\activate
+     ```
+     **Install dependencies**
+      ```bash
+      pip install -r requirements.txt
+      ```     
+4. **Create a new branch** for your changes.
+5. **Make your changes** and commit them to your branch.
+6. **Push your branch** to your fork on GitHub.
+7. **Open a pull request** from your fork to the main django-fix repository.
 
 ### Pull Request Guidelines
 
