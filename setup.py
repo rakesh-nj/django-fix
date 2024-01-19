@@ -6,7 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         'openai',
-        # Other dependencies
     ],
     entry_points={
         'console_scripts': [
